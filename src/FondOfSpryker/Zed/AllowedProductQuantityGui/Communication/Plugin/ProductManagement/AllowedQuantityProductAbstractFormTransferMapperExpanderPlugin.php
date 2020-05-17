@@ -34,7 +34,7 @@ class AllowedQuantityProductAbstractFormTransferMapperExpanderPlugin extends Abs
     /**
      * @param array $formData
      *
-     * @return bool|null
+     * @return \Generated\Shared\Transfer\AllowedProductQuantityTransfer|null
      */
     protected function mapFormDataToTransfer(array $formData): ?AllowedProductQuantityTransfer
     {
@@ -42,9 +42,7 @@ class AllowedQuantityProductAbstractFormTransferMapperExpanderPlugin extends Abs
             return null;
         }
 
-        $allowedProductQuantityTransfer = (new AllowedProductQuantityTransfer())
+        return (new AllowedProductQuantityTransfer())
             ->fromArray($formData[AllowedQuantityForm::NAME], true);
-
-        return $allowedProductQuantityTransfer;
     }
 }

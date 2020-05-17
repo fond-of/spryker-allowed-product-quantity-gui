@@ -60,8 +60,6 @@ class AllowedProductQuantityGuiCommunicationFactory extends AbstractCommunicatio
     }
 
     /**
-     * @throws
-     *
      * @return \FondOfSpryker\Zed\AllowedProductQuantityGui\Dependency\Facade\AllowedProductQuantityGuiToAllowedProductQuantityFacadeInterface
      */
     protected function getAllowedProductQuantityFacade(): AllowedProductQuantityGuiToAllowedProductQuantityFacadeInterface
