@@ -12,7 +12,7 @@ use Spryker\Zed\Kernel\Communication\AbstractPlugin;
 class AllowedQuantityProductAbstractFormTabsExpanderPlugin extends AbstractPlugin implements ProductAbstractFormTabsExpanderPluginInterface
 {
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      *
      * @api
      *

@@ -12,7 +12,7 @@ use Symfony\Component\Form\FormBuilderInterface;
 class AllowedQuantityProductAbstractFormExpanderPlugin extends AbstractPlugin implements ProductAbstractFormExpanderPluginInterface
 {
     /**
-     * {@inheritdoc}
+     * {@inheritDoc}
      *
      * @api
 
